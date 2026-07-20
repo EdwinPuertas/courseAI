@@ -121,31 +121,31 @@ courseAI/
 │   ├── backward_chaining.py
 │   │
 │   │  ── Unit 4: Uncertain Knowledge & Reasoning ──────────────────
-│   ├── pronostico_demanda.ipynb
+│   ├── demand_forecasting.ipynb
 │   ├── cooccurrence.ipynb
-│   ├── n-grams_model.ipynb
+│   ├── ngrams_model.ipynb
 │   ├── tass_lexical_baseline.ipynb
 │   ├── unstructured_data.ipynb
 │   │
 │   │  ── Unit 5: Machine Learning ──────────────────────────────────
 │   ├── iris_linear_regression.ipynb
 │   ├── iris_logistic_regression.ipynb
-│   ├── water_quality_regression_MLOps.ipynb
+│   ├── water_quality_regression_mlops.ipynb
 │   ├── word2vec.ipynb
 │   ├── poc_spacy.ipynb
 │   ├── text_generation.ipynb
 │   ├── neural_nets_with_keras.ipynb
 │   ├── bert.ipynb
-│   ├── RoBERTa.ipynb
-│   ├── electra_IA.ipynb
-│   ├── HuggingFace_Transformers.ipynb
+│   ├── roberta.ipynb
+│   ├── electra_ia.ipynb
+│   ├── huggingface_transformers.ipynb
 │   └── yolov11.ipynb
 │
 ├── logic_programming/           # Unit 3 – First-Order Logic & Knowledge Representation
 │   ├── fol_lord_of_rings.ipynb
-│   ├── fol_lor_of_ring-Sympy.ipynb
+│   ├── fol_lord_of_rings_sympy.ipynb
 │   ├── fol_universal_marvel.ipynb
-│   └── virtual_appointment_FOL.ipynb
+│   └── virtual_appointment_fol.ipynb
 │
 ├── prompt_engineering/          # Supplementary – Prompt design for LLMs
 │   ├── 00_intro.ipynb
@@ -153,11 +153,11 @@ courseAI/
 │   ├── 02_clear_and_direct.ipynb
 │   ├── 03_assigning_roles.ipynb
 │   ├── 04_separating_data_instructions.ipynb
-│   ├── 05_formatting_output_&_speaking_claude.ipynb
+│   ├── 05_formatting_output_and_speaking_claude.ipynb
 │   ├── 06_precognition_thinking.ipynb
 │   ├── 07_fewshot_prompting.ipynb
 │   ├── 08_avoiding_hallucinations.ipynb
-│   └── 09_Complex_Prompts_from_Scratch.ipynb
+│   └── 09_complex_prompts_from_scratch.ipynb
 │
 ├── requirements.txt
 └── LICENSE
@@ -224,9 +224,9 @@ courseAI/
 | Notebook | Topic |
 |---|---|
 | [`fol_lord_of_rings.ipynb`](./logic_programming/fol_lord_of_rings.ipynb) | FOL Fundamentals — Tolkien Domain |
-| [`fol_lor_of_ring-Sympy.ipynb`](./logic_programming/fol_lor_of_ring-Sympy.ipynb) | Symbolic FOL Computation with SymPy |
+| [`fol_lord_of_rings_sympy.ipynb`](./logic_programming/fol_lord_of_rings_sympy.ipynb) | Symbolic FOL Computation with SymPy |
 | [`fol_universal_marvel.ipynb`](./logic_programming/fol_universal_marvel.ipynb) | Universal Quantification — Marvel Domain |
-| [`virtual_appointment_FOL.ipynb`](./logic_programming/virtual_appointment_FOL.ipynb) | FOL Applied to Scheduling & Planning |
+| [`virtual_appointment_fol.ipynb`](./logic_programming/virtual_appointment_fol.ipynb) | FOL Applied to Scheduling & Planning |
 
 #### Automated Reasoning
 
@@ -252,10 +252,10 @@ courseAI/
 | Notebook | Topic |
 |---|---|
 | [`cooccurrence.ipynb`](./examples/cooccurrence.ipynb) | Co-occurrence Statistics & Word Probability |
-| [`n-grams_model.ipynb`](./examples/n-grams_model.ipynb) | N-Gram Probabilistic Language Modeling |
+| [`ngrams_model.ipynb`](./examples/ngrams_model.ipynb) | N-Gram Probabilistic Language Modeling |
 | [`tass_lexical_baseline.ipynb`](./examples/tass_lexical_baseline.ipynb) | Probabilistic Sentiment Analysis — Lexical Baseline |
 | [`unstructured_data.ipynb`](./examples/unstructured_data.ipynb) | Probabilistic Processing of Unstructured Data |
-| [`pronostico_demanda.ipynb`](./examples/pronostico_demanda.ipynb) | Forecasting Under Uncertainty — Demand Prediction |
+| [`demand_forecasting.ipynb`](./examples/demand_forecasting.ipynb) | Forecasting Under Uncertainty — Demand Prediction |
 
 ---
 
@@ -278,7 +278,7 @@ courseAI/
 |---|---|
 | [`iris_linear_regression.ipynb`](./examples/iris_linear_regression.ipynb) | Linear Regression — Iris Dataset |
 | [`iris_logistic_regression.ipynb`](./examples/iris_logistic_regression.ipynb) | Logistic Regression — Classification |
-| [`water_quality_regression_MLOps.ipynb`](./examples/water_quality_regression_MLOps.ipynb) | Regression with MLOps Practices |
+| [`water_quality_regression_mlops.ipynb`](./examples/water_quality_regression_mlops.ipynb) | Regression with MLOps Practices |
 
 #### Natural Language Processing & Embeddings
 
@@ -294,9 +294,9 @@ courseAI/
 |---|---|
 | [`neural_nets_with_keras.ipynb`](./examples/neural_nets_with_keras.ipynb) | Neural Networks with Keras |
 | [`bert.ipynb`](./examples/bert.ipynb) | BERT — Bidirectional Encoder Representations |
-| [`RoBERTa.ipynb`](./examples/RoBERTa.ipynb) | RoBERTa — Robustly Optimized BERT |
-| [`electra_IA.ipynb`](./examples/electra_IA.ipynb) | ELECTRA — Efficient Pre-training |
-| [`HuggingFace_Transformers.ipynb`](./examples/HuggingFace_Transformers.ipynb) | HuggingFace Transformers Pipeline |
+| [`roberta.ipynb`](./examples/roberta.ipynb) | RoBERTa — Robustly Optimized BERT |
+| [`electra_ia.ipynb`](./examples/electra_ia.ipynb) | ELECTRA — Efficient Pre-training |
+| [`huggingface_transformers.ipynb`](./examples/huggingface_transformers.ipynb) | HuggingFace Transformers Pipeline |
 | [`yolov11.ipynb`](./examples/yolov11.ipynb) | Real-Time Object Detection — YOLOv11 |
 
 ---
@@ -330,11 +330,11 @@ A structured sequence on systematic prompt design for large language models — 
 | [`02_clear_and_direct.ipynb`](./prompt_engineering/02_clear_and_direct.ipynb) | Clarity and Directness |
 | [`03_assigning_roles.ipynb`](./prompt_engineering/03_assigning_roles.ipynb) | Role Assignment and Persona Design |
 | [`04_separating_data_instructions.ipynb`](./prompt_engineering/04_separating_data_instructions.ipynb) | Separating Data from Instructions |
-| [`05_formatting_output_&_speaking_claude.ipynb`](./prompt_engineering/05_formatting_output_&_speaking_claude.ipynb) | Output Formatting Strategies |
+| [`05_formatting_output_and_speaking_claude.ipynb`](./prompt_engineering/05_formatting_output_and_speaking_claude.ipynb) | Output Formatting Strategies |
 | [`06_precognition_thinking.ipynb`](./prompt_engineering/06_precognition_thinking.ipynb) | Extended Reasoning & Chain-of-Thought |
 | [`07_fewshot_prompting.ipynb`](./prompt_engineering/07_fewshot_prompting.ipynb) | Few-Shot Prompting |
 | [`08_avoiding_hallucinations.ipynb`](./prompt_engineering/08_avoiding_hallucinations.ipynb) | Hallucination Mitigation Techniques |
-| [`09_Complex_Prompts_from_Scratch.ipynb`](./prompt_engineering/09_Complex_Prompts_from_Scratch.ipynb) | Building Complex Prompt Pipelines |
+| [`09_complex_prompts_from_scratch.ipynb`](./prompt_engineering/09_complex_prompts_from_scratch.ipynb) | Building Complex Prompt Pipelines |
 
 ---
 
